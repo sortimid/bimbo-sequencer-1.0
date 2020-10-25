@@ -11,7 +11,7 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="Bimbo Sequencer 1.0" startnode="1" creator="Twine" creator-version="2.2.1" ifid="2127F7B8-D413-4568-BDC7-6E353CC0C8D6" zoom="1" format="Harlowe" format-version="1.2.4" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">body {
+<tw-storydata name="Bimbo Sequencer 1.0" startnode="1" creator="Twine" creator-version="2.3.3" ifid="2127F7B8-D413-4568-BDC7-6E353CC0C8D6" zoom="1" format="Harlowe" format-version="1.2.4" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">body {
   	display: flex;
 }
 
@@ -108,6 +108,8 @@ tw-sidebar tw-icon.undo {
 	margin: 0;
 	width: 90px;
 }
+
+
 
 
 
@@ -291,6 +293,8 @@ window.onload = preload([
 
 
 
+
+
 </script><tw-passagedata pid="1" name="You found a Remote!" tags="" position="598,261" size="100,100">&lt;div id=&quot;texto&quot;&gt;
 &lt;h1&gt;Bimbo Sequencer 1.0 by Sortimid&lt;/h1&gt;
   (display: &quot;Initializer&quot;)As you&#39;re walking down the street, you come across a peculiar remote. It looks like a toy but feels heavy in your hand. It says &lt;strong&gt;&quot;Bimbo Sequencer 1.0&quot;&lt;/strong&gt; on the side.
@@ -382,7 +386,9 @@ There&#39;s a readout on the Sequencer:
 ]
 &lt;/div&gt;
 &lt;br /&gt;
-(if: $isPerfect)[You did it! I hope you enjoyed my game! You can find more of my work &lt;a class=&quot;homepage-link&quot; href=&quot;http://sortimid.deviantart.com&quot;&gt;here&lt;/a&gt; or you can [[play again-&gt;You found a Remote!]]. &lt;em&gt;-Sortimid&lt;/em&gt;](else:)[&lt;p class=&quot;floatright&quot;&gt;[[Try Again-&gt;You found a Remote!]]]&lt;/p&gt;
+(if: $isPerfect)[You did it! I hope you enjoyed my game! Follow me on &lt;a href=&quot;https://www.twitter.com/sortimid&quot;&gt;Twitter&lt;/a&gt; and &lt;a href=&quot;https://www.deviantart.com/sortimid&quot;&gt;DeviantArt&lt;/a&gt;. You can find more games and support me on &lt;a class=&quot;homepage-link&quot; href=&quot;https://www.patreon.com/sortimid&quot;&gt;Patreon&lt;/a&gt;.
+&lt;br /&gt;
+[[Play Again-&gt;You found a Remote!]]](else:)[&lt;p class=&quot;floatright&quot;&gt;[[Try Again-&gt;You found a Remote!]]]&lt;/p&gt;
 }</tw-passagedata><tw-passagedata pid="8" name="Menu" tags="" position="946,670" size="100,100">&lt;div&gt;
 {
 (if: $turns &lt; $turnsMax-1)[
